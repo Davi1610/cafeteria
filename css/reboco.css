@@ -1,0 +1,40 @@
+/* A aplicação do Asterisco(*) no arquivo do CSS informa ao navegador que todos 
+os elementos da tela receberão esta formatação */
+* {
+  margin: 0; /* Estamos zerando as margens externas dos elementos*/
+  padding: 0; /* Estamos zerando as margens internas dos elementos*/
+}
+/* Vamos aplicar ana tag Header cor de fundo e padding  */
+header {
+  background-image: url("../img/cafe6.jpg");
+  background-position: 0-100px;
+  padding-top: 150px;
+  transition: ease 1s; /*Efeito de animação com transition. Efeito ease 
+                       com tempo de 2s*/
+}
+/* Formatar a Tag h1 que está dentro do header */
+header h1 {
+  color: #fff; /*Cor da Letra*/
+  font-family: "Arial"; /*Mudar o tipo da letra pra Arial*/
+  text-align: center; /*Alinhando o texto no centro*/
+}
+header nav {
+  background-color: rgb(9, 39, 9);
+  text-align: center;
+  padding: 5px;
+}
+header nav ul li {
+  /* Vamos exibir os itens da lista um ao lado do outro. Usaremos
+  O comando display (tela|exibir) inline-block(bloco em linha)  */
+  display: inline-block;
+  margin: 5px;
+}
+header nav ul li a {
+  color: #fff;
+  font-family: "Arial";
+  /* Comando pra retirar a decoração ou sublinhagem do texto */
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: seagreen;
+}
