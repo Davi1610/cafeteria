@@ -38,3 +38,38 @@ header nav ul li a {
 header nav ul li a:hover {
   color: seagreen;
 }
+footer {
+  /* Aplicando cor de fundo no rodapé */
+  background-color: rgb(17, 16, 16);
+  /* Aplicando margem interna */
+  padding: 30px;
+  padding-top: 60px;
+  /* Altura do rodapé */
+  height: 150px;
+}
+/* Para fazer a formatação em um id definido é necessário que 
+você adicione sustenido (#) ao inicio do nome do id. Neste caso
+nossa div tem o id chamado end, então aplicamos desta forma: #end */
+footer #end {
+  color: #fff;
+  font-family: "Verdana";
+  font-size: 12px;
+  float: left;
+}
+footer #redes {
+  /* border: solid 1px green; */
+  float: right;
+}
+footer #redes a {
+  text-decoration: none;
+}
+footer #redes a img {
+  width: 40px; /*Diminuir a largura da imagem*/
+  right: 40px; /*Diminuir a altura da imagem*/
+  margin: 5px; /*Criar um espaço entre uma rede e outra*/
+  transition: ease 0.5s;
+}
+footer #redes a img:hover {
+  /* Realizar uma rotação de 360º na imagem */
+  transform: rotate(360deg);
+}
