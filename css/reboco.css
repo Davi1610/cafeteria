@@ -73,3 +73,35 @@ footer #redes a img:hover {
   /* Realizar uma rotação de 360º na imagem */
   transform: rotate(360deg);
 }
+/*--------------- INÍCIO DA FORMATAÇÃO DA PÁGINA INDEX------------ */
+main h2 {
+  font-family: "Arial";
+  font-size: 20px;
+  margin: 50px;
+  border-bottom: green 1px solid;
+}
+main p {
+  margin-left: 100px; /*Criando margens no texto para não ficarem colados no canto da tela*/
+  margin-right: 100px;
+  margin-bottom: 30px; /*margem na parte inferior de cada parágrafo*/
+  text-align: justify; /*Ajustando as linhas para ficarem arrumadas*/
+  font-size: 12pt; /*tamanho da letra do texto*/
+  line-height: 20pt; /*altura da linha, que dá um efeito de espaçamento entre as linhas*/
+  font-family: "Arial";
+}
+main #imghome img {
+  text-align: center; /*colocar as imagens centralizadas*/
+  width: 300px;
+  height: 300px;
+  /* Vamos arredondar os cantos das imagens com o comando border-radius. O valor
+  pode ser em pixel ou porcentagem */
+  border-radius: 50%;
+  margin: 10px; /*para afastar uma imagem da outra*/
+  opacity: 0.6;
+  transition: ease 0.5s;
+}
+main #imghome img:hover {
+  opacity: 1; /*ao colocar o ponteiro da imagem ela fica viva e nitida*/
+  transform: scale(1.1); /*assim a imagem vem pra frente*/
+}
+/*--------FIM DA FORMATAÇÃO DA PÁGINA INDEX------------*/
