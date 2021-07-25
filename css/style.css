@@ -124,3 +124,50 @@ main #video iframe {
 }
 
 /* --------FIM DA FORMATAÇÃO DA PÁGINA HISTÓRIA------- */
+
+/* --INICIO DA FORMATAÇÃO DA PÁGINA CARDÁPIO-- */
+/*main #area,
+main #area #conteudo,
+main #area #conteudo #imagem,
+main #area #conteudo #texto {
+  border: 1px solid red;
+}*/
+main #area #conteudo #imagem img {
+  width: 200px;
+  height: 180px;
+}
+main #area #conteudo #imagem {
+  width: 210px;
+  /* fazer a caixa de imagem flutuar para a esquerda */
+  float: left;
+}
+main #area #conteudo #texto {
+  width: 600px;
+  /* fazer a caixa de texto flutuar para a esquerda */
+  float: left;
+}
+/* Aplicar a exibição (display) inline-block para as 
+caixas area e conteudo */
+main #area,
+main #conteudo {
+  display: inline-block;
+  width: 90%;
+}
+main #area #conteudo #texto h5 {
+  font-size: 14pt;
+  font-family: "Arial";
+  margin: 5px;
+}
+main #area #conteudo #texto span {
+  color: red;
+}
+main #area #conteudo {
+  margin-left: 50px;
+  border-bottom: 1px rgb(31, 97, 14);
+}
+main h3 {
+  font-family: "Arial";
+  font-size: 20pt;
+  margin: 50px;
+}
+/* --FIM DA FORMATAÇÃO DA PÁGINA CARDÁPIO-- */
