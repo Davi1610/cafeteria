@@ -31,7 +31,39 @@
     </header>
     <!-- FIM DA ÁREA DO HEADER -->
     <!-- INICIO DA ÁREA DO MAIN -->
-    <main></main> 
+    <main>
+      <h2>Contato</h2>
+       <!-- Criação de formulário com as tags HTML  
+        form -> formulário
+        input -> Caixa para o Usuário fazer a entrada de texto
+        input radio -> Botão de opção
+        select -> Menu de Seleção
+        textarea -> Caixa onde o usuário poderá escrever uma mensagem
+        input submit -> Botão para o envio de Dados--> 
+
+      <form>
+
+        <input type="text" placeholder="Nome Completo" required>
+        <input type="email" placeholder="E-Mail" required>
+        <span>
+            <input type="radio" name="Sexo" value="Masculino"> Masculino
+            <input type="radio" name="Sexo" value="Feminino"> Feminino
+            <input type="radio" name="Sexo" value="Outros"> Outros
+        </span>
+        <select>
+            <option>Elogio</option>
+            <option>Crítica</option>
+            <option>Dúvida</option>
+            <option>Outros...</option>
+        </select>
+        <textarea>Mensagem</textarea>
+        <input type="submit" value="Enviar">
+        
+        
+      </form>
+     
+
+    </main> 
     <!-- FIM DA ÁREA DO MAIN -->
     <!-- INICIO DA ÁREA DO FOOTER -->
     <footer>
